@@ -22,11 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <Navbar/>
-<BrowserRouter>
-{children}
-</BrowserRouter>
-        
-
+        <BrowserRouter>
+        {children}
+        </BrowserRouter>
+                
         <Footer />
 
         <Script strategy="beforeInteractive" src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></Script>
