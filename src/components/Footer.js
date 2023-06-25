@@ -1,8 +1,11 @@
 import Link from "next/link"
-import Script from "next/script"
 import React from "react"
+import { usePathname } from "next/navigation"
 
 const Footer = () => {
+  const pathname = usePathname()
+
+  if(pathname === "/afterLogin/CoursePath") return null
   return (
     <footer className="bg-blue-500 dark:bg-gray-900f text-white">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">

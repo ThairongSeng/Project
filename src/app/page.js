@@ -3,12 +3,12 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main class="bg-white">
+    <main>
       {/* learn to code */}
-      <div class="lg:mt-24 md:mt-24 md:pt-5  mt-20 mx-auto xl:px-0 flex flex-wrap pb-20">
+      <div class="lg:mt-24 md:mt-24 md:pt-5 mt-20 mx-auto xl:px-0 flex flex-wrap pb-20">
         <div class="flex items-center w-full md:justify-center lg:w-1/2 lg:p-10 ">
           <div class="max-w-2xl mt-10 lg:ms-10">
-            <h1 class="text-center sm:text-center md:text-center lg:text-start font-bold leading-snug tracking-tight text-gray-800 text-4xl pe-3 ps-3  sm:text-4xl lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
+            <h1 class="text-center tex sm:text-center md:text-center lg:text-start font-bold leading-snug tracking-tight text-gray-800 text-4xl pe-3 ps-3  sm:text-4xl lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
             Learn to Code For Free With <span class="text-pink-500">ISTADemy</span>
             </h1>
             <p class="text-center lg:text-start py-5 mb-3 text-lg leading-normal text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300">
@@ -35,9 +35,7 @@ export default function Home() {
             decoding="async"
             data-nimg="1"
             class="object-cover"
-            srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.4e76c802.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.4e76c802.png&amp;w=1920&amp;q=75 2x"
-            src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.4e76c802.png&amp;w=1920&amp;q=75"
-          />
+            src="/images/Logo.png" />
         </div>
         
       </div>
@@ -107,8 +105,7 @@ export default function Home() {
             decoding="async"
             data-nimg="1"
             class="object-cover"
-            srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.4e76c802.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.4e76c802.png&amp;w=1920&amp;q=75 2x"
-            src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.4e76c802.png&amp;w=1920&amp;q=75"
+            src="/images/Logo.png"
           />
         </div>
         <div class="flex items-center md:justify-center md:mt-4 w-full lg:w-1/2">

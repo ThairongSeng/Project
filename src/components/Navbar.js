@@ -1,11 +1,16 @@
-import Link from "next/link"
+
+import { usePathname } from "next/navigation"
 import React from "react"
 
 
 
 export default function Navbar() {
+
+    const pathname = usePathname()
+
+    if(pathname === "/afterLogin") return null
+
   return (
- 
       <nav class=" bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="# " class="flex items-center">
